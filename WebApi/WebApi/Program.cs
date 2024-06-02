@@ -1,24 +1,14 @@
-using CarModule;
-using FastEndpoints;
+using WebApi.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-builder.Services.AddFastEndpoints();
-
-// App module services
-builder.Services.AddCarModuleServices();
+builder.Services.AddAppServices(builder.Configuration);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
-
-app.UseFastEndpoints();
+app.AddMiddleware();
+app.UpdateDatabase();
 
 app.Run();
+
+public partial class Program { }
