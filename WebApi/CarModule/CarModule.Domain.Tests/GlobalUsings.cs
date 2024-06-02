@@ -1,0 +1,9 @@
+﻿global using Xunit;
+global using FluentAssertions;
+global using CarModule.Domain.Entities;
+global using CarModule.Domain.StronglyIds;
+global using CarModule.Domain.Common;
+global using FluentAssertions.Execution;
+global using CarModule.Domain.Builders;
+global using Microsoft.EntityFrameworkCore;
+global using CarModule.Domain.EntityTypeConfigurations;

@@ -1,0 +1,11 @@
+﻿global using FluentAssertions;
+global using MediatR;
+global using Microsoft.EntityFrameworkCore;
+global using NSubstitute;
+global using Xunit;
+global using CarModule.Contracts;
+global using CarModule.Domain.Builders;
+global using CarModule.Domain.Entities;
+global using CarModule.Application.Common.Interfaces;
+global using CarModule.Infrastructure.Contexts;
+global using CarModule.Infrastructure.Persistence.Common;
