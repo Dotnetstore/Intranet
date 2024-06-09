@@ -1,5 +1,0 @@
-@WebApi_HostAddress = https://localhost:7285
-
-GET {{WebApi_HostAddress}}/api/carMakes
-Accept: application/json
-###
