@@ -9,146 +9,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="567749dc-3160-4571-a41e-0f8d66b54dc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Application/Commands/Users/Create/CreateUserCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Application/Commands/Users/Create/CreateUserCommandHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Application/Commands/Users/Create/CreateUserCommandValidator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Application/Common/Interfaces/IGenericRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Application/Common/Interfaces/IUnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Application/Common/Mappers/UserMappers.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Domain/Builders/UserBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Domain/Entities/User.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Domain/EntityTypeConfigurations/UserEntityTypeConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Domain/StronglyTypedIds/UserId.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Extensions/ServiceCollectionExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/IUserModuleAssemblyMarker.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Infrastructure/Contexts/UserModuleContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Infrastructure/Persistence/GenericRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Infrastructure/Persistence/UnitOfWork.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/Presentation/EndPoints/CreateUserEndPoint.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModule/UserModule.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModuleContracts/CreateUserRequest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModuleContracts/CreateUserResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/User Module/UserModuleContracts/UserModuleContracts.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/Utilities/Attributes/EfCoreValueConverterAttribute.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/Utilities/Constants/DataSchemaConstants.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/Utilities/Entities/BaseAuditableEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/Utilities/Entities/Identity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/Utilities/Entities/Interfaces/IBaseAuditableEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/Utilities/Entities/Person.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/Utilities/EntityTypeConfigurations/BaseAuditableEntityEntityTypeConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/Utilities/EntityTypeConfigurations/IdentityEntityTypeConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/Utilities/EntityTypeConfigurations/PersonEntityTypeConfiguration.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/Utilities/Extensions/ModelBuilderExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/Utilities/Utilities.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/WebApi/Extensions/ServiceCollectionExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/WebApi/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/WebApi/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/WebApi/WebApi.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/WebApi/WebApi.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/WebApi/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WebApi/WebApi/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestHelper/FakeData/UserFakeDataBuilder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestHelper/TestBases/TestBaseUserModuleContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TestHelper/TestHelper.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserModule.Tests/Application/Commands/Users/Create/CreateUserCommandHandlerTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserModule.Tests/Application/Commands/Users/Create/CreateUserCommandTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserModule.Tests/Application/Commands/Users/Create/CreateUserCommandValidatorTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserModule.Tests/Application/Common/Mappers/UserMappersTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserModule.Tests/Domain/Builders/UserBuilderTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserModule.Tests/Domain/Entities/UserTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserModule.Tests/Domain/EntityTypeConfigurations/UserEntityTypeConfigurationTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserModule.Tests/Domain/StronglyTypedIds/UserIdTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserModule.Tests/Infrastructure/Contexts/UserModuleContextTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserModule.Tests/Infrastructure/Persistence/GenericRepositoryTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserModule.Tests/Infrastructure/Persistence/UnitOfWorkTests.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserModule.Tests/UserModule.Tests.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dotnetstore.Intranet/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Dotnetstore.Intranet/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Intranet.dir/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Intranet.dir/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Intranet.dir/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Intranet.dir/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dotnetstore.Intranet.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Dotnetstore.Intranet.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application.Tests/CarModule.Application.Tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application.Tests/Common/Mappers/CarMakeMappersTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application.Tests/GlobalUsings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application.Tests/Queries/CarMakes/GetAll/GetAllCarMakeQueryHandlerTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application.Tests/Queries/CarMakes/GetAll/GetAllCarMakeQueryTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application.Tests/Queries/CarMakes/GetAllNotDeleted/GetAllNotDeletedCarMakeQueryHandlerTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application.Tests/Queries/CarMakes/GetAllNotDeleted/GetAllNotDeletedCarMakeQueryTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application/CarModule.Application.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application/Common/Interfaces/IGenericRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application/Common/Interfaces/IUnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application/Common/Mappers/CarMakeMappers.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application/GlobalUsings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application/IApplicationAssemblyMarker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application/Queries/CarMakes/GetAll/GetAllCarMakeQuery.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application/Queries/CarMakes/GetAll/GetAllCarMakeQueryHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application/Queries/CarMakes/GetAllNotDeleted/GetAllNotDeletedCarMakeQuery.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Application/Queries/CarMakes/GetAllNotDeleted/GetAllNotDeletedCarMakeQueryHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Contracts.Tests/CarMakeResponseTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Contracts.Tests/CarModule.Contracts.Tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Contracts/CarMakeResponse.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Contracts/CarModule.Contracts.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain.Tests/Builders/CarMakeBuilderTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain.Tests/CarModule.Domain.Tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain.Tests/Common/BaseAuditableEntityTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain.Tests/Common/DataSchemaConstantsTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain.Tests/Entities/CarMakeTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain.Tests/EntityTypeConfigurations/BaseAuditableEntityEntityTypeConfigurationTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain.Tests/EntityTypeConfigurations/CarMakeEntityTypeConfigurationTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain.Tests/GlobalUsings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain.Tests/StronglyIds/CarMakeIdTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain/Builders/CarMakeBuilder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain/CarModule.Domain.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain/Common/BaseAuditableEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain/Common/DataSchemaConstants.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain/Common/IBaseAuditableEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain/Entities/CarMake.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain/EntityTypeConfigurations/BaseAuditableEntityEntityTypeConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain/EntityTypeConfigurations/CarMakeEntityTypeConfiguration.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain/IDomainAssemblyMarker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Domain/StronglyIds/CarMakeId.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure.Tests/CarModule.Infrastructure.Tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure.Tests/Contexts/CarModuleContextTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure.Tests/Extensions/AddCarModuleInfrastructureTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure.Tests/Persistence/Common/GenericRepositoryTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure.Tests/Persistence/Common/UnitOfWorkTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure/CarModule.Infrastructure.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure/Contexts/CarModuleContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure/Extensions/ServiceCollectionExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure/GlobalUsings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure/IInfrastructureAssemblyMarker.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure/Migrations/20240531145954_Initial.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure/Migrations/20240531145954_Initial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure/Migrations/CarModuleContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure/Persistence/Common/GenericRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Infrastructure/Persistence/Common/UnitOfWork.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Presentation.Tests/CarModule.Presentation.Tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Presentation.Tests/Extensions/ServiceCollectionExtensionsTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Presentation.Tests/GlobalUsings.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Presentation/CarModule.Presentation.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Presentation/Endpoints/CarMakes/GetAllCarMakeEndpoint.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/CarModule/CarModule.Presentation/Extensions/ServiceCollectionExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/TestHelper/TestHelper.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/WebApi.Tests/Extensions/StartupExtensionsTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/WebApi.Tests/WebApi.Tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/WebApi/Extensions/StartupExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/WebApi/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/WebApi/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/WebApi/WebApi.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/WebApi/WebApi.http" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/WebApi/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/WebApi/appsettings.Testing.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApi/WebApi/appsettings.json" beforeDir="false" />
-    </list>
+    <list default="true" id="567749dc-3160-4571-a41e-0f8d66b54dc9" name="Changes" comment="Vertical slicing and added tests" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -157,6 +29,31 @@
     &quot;assignee&quot;: &quot;Dotnetstore&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Tests" />
+                    <option name="lastUsedInstant" value="1717931828" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1717931827" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
       <list>
@@ -192,7 +89,7 @@
     ".NET Launch Settings Profile.WebApi: https.executor": "Run",
     "4842f265-7804-4a90-af77-a2d445ae0f09.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Tests",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -273,7 +170,16 @@
       <workItem from="1717784167429" duration="24000" />
       <workItem from="1717784200611" duration="22000" />
       <workItem from="1717784234589" duration="1894000" />
+      <workItem from="1717923207365" duration="1911000" />
     </task>
+    <task id="LOCAL−00001" summary="Vertical slicing and added tests">
+      <option name="closed" value="true" />
+      <created>1717931860404</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1717931860404</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,17 +189,23 @@
     <option name="coveragePercentColumnWidth" value="150" />
     <option name="sortOrder" value="DESCENDING" />
     <option name="sortedColumn" value="1" />
-    <option name="symbolColumnWidth" value="340" />
+    <option name="symbolColumnWidth" value="690" />
     <coverage-tree-state>
       <expand>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 87% 58/449" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 89% 53/477" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
         <path>
           <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
-          <item name="Total 87% 58/449" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
-          <item name="src 81% 47/244" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="Total 89% 53/477" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 77% 51/218" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+        </path>
+        <path>
+          <item name="rootNode" type="c53c71d1:RiderDotCoverCoverageTreeModel$RootNode" />
+          <item name="Total 89% 53/477" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="src 77% 51/218" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
+          <item name="WebApi 77% 51/218" type="8b8fad3a:RiderDotCoverCoverageTreeNode" />
         </path>
       </expand>
       <select />
@@ -302,6 +214,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Vertical slicing and added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vertical slicing and added tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
